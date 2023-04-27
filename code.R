@@ -234,3 +234,10 @@ plot_data %>%
                                  size = 5*.pt, lineheight = .5),
     plot.margin = margin(20))
 
+# Save
+ggsave("menken-lyricists.png",
+  width = 10,
+  height = 7,
+  units = "in",
+  dpi = 300
+)
