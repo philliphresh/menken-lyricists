@@ -239,5 +239,5 @@ ggsave("menken-lyricists.png",
   width = 10,
   height = 7,
   units = "in",
-  dpi = 3000
+  dpi = 1000
 )
